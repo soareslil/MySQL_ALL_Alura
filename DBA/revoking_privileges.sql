@@ -1,0 +1,3 @@
+SELECT * FROM mysql.user;
+SHOW GRANTS FOR only_one_db;
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM only_one_db;
